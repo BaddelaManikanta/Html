@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zomato</title>
+	<link rel="stylesheet" type="text/css" href="../MDB/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../MDB/css/mdb.css">
+	<style>
+		/*body
+		{
+			text-align: center;
+		} */
+		h1
+		{
+			align: left;
+			display: inline-block;
+			width: 400px;
+			text-align: center;
+		}
+		input
+		{
+			display: inline-block;
+			width: 40px;
+		}
+		img:hover
+		{
+			border-radius: 20px;
+			cursor: pointer;
+		}
+		img
+		{
+			transition: all 0s linear 0s;
+		}
+		img:hover
+		{
+			border: 1px solid white;
+			border-radius: 10px;
+			transform: scale(5,5);
+		}
+		p
+		{
+			text-align: left;
+		}
+		button
+		{
+			margin-left:50% ;
+			aling:center;
+		}
+	</style>
+</head>
+<body class="bg-warning">
+	<h1 class="h1 text-white bg-danger">Zomato Cart</h1>
+	<hr>
+	<p>Zomato was founded as FoodieBay in 2008 by Deepinder Goyal and Pankaj Chaddah who worked for	 Bain & Company. The website started as a restaurant listing and recommendation portal. They renamed the company Zomato in 2010 as they were unsure if they would "just stick to food" and also to avoid a potential naming conflict with eBay.
+	In 2011, it expanded across India to Delhi NCR, Mumbai, Bangalore, Chennai, Pune, Ahmedabad and Hyderabad.In 2012, it expanded operations internationally in several countries, including the United Arab Emirates, Sri Lanka,Qatar,the United Kingdom,the Philippines,and South Africa.In 2013, expanded to in New Zealand,Turkey, Brazil and Indonesia, with website and apps available in Turkish, Portuguese, Indonesian and English languages.In April 2014, it launched in Portugal, which was followed by launches in Canada, Lebanon and Ireland in 2015.
+	In January 2015, Zomato acquired Seattle-based restaurant discovery portal Urbanspoon, which led to the firm's entry into the United States and Australia.This U.S.-expansion brought Zomato into direct competition with similar models such as Yelp and Foursquare.In an effort to expand its business beyond restaurant listing, Zomato piloted an online payments facility in partnered restaurants in Dubai called Zomato Cashless in February 2015.This was discontinued a few months later.
+	Zomato started its food delivery service in India in 2015,initially partnering with companies such as Delhivery and Grab to fulfill deliveries from restaurants that did not have its own delivery service.In April 2015, Zomato acquired the American online table reservation platform NexTable, which was subsequently renamed as Zomato Book.In January 2016, it launched Zomato Book's table reservation feature on its application in India.In April 2015, it acquired cloud-based point of sale (PoS) company MapleGraph Solutions,and, in April 2016, launched its own version of PoS for restaurant owners called Zomato Base, comprising menu and inventory management, payment system and analytics.Later that year, Zomato acquired Sparse Labs (renamed Zomato Trace) and integrated the latter's real-time delivery location tracking technology on its food delivery platform.</p>
+<hr>
+<button class="bg-danger btn-lg text-white">Order Now</button>
+	<div>
+		<table class="table bg-dark text-white text-center">
+		<thead>
+			<th>SNo</th>
+			<th>item</th>
+			<th>Name</th>
+			<th>Price</th>
+			<th>Quantity</th>
+			<th>Total Price</th>
+		</thead>
+		<tr>
+			<td>01</td>
+			<td><img src="biriyani.jpg" width="100px"></td>
+			<td>Chicken Biriyani</td>
+			<td>250rs</td>
+			<td><input type="number" class="input"> <i class="bi bi-file-plus"></i></td>
+			<td>Price*Quantity</td>
+		</tr>
+		<tr>
+			<td>02</td>
+			<td><img src="burger.jpg" width="100px"></td>
+			<td>Checken Burger</td>
+			<td>200rs</td>
+			<td><input type="number" class="input"></td>
+			<td>Price*Quantity</td>
+		</tr>
+		<tr>
+			<td>03</td>
+			<td><img src="shawarma.jpg" width="100px" height="70px"></td>
+			<td>Shawarma</td>
+			<td>100rs</td>
+			<td><input type="number" class="input"></td>
+			<td>Price*Quantity</td>
+		</tr>
+		<tr>
+			<td>04</td>
+			<td><img src="burger1.jpg" width="100px" height="70px"></td>
+			<td>Veg Burger</td>
+			<td>150rs</td>
+			<td><input type="number" class="input"></td>
+			<td>Price*Quantity</td>
+		</tr>
+		<tr>
+			<td>05</td>
+			<td><img src="mutton.jpg" width="100px" height="70px"></td>
+			<td>Mutton Biriyani</td>
+			<td>300rs</td>
+			<td><input type="number" class="input"></td>
+			<td>Price*Quantity</td>
+		</tr>
+		</table>
+	</div>
+<button class="bg-danger btn-lg text-white text-center">Order</button>
+</body>
+</html>
